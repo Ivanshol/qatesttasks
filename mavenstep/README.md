@@ -24,6 +24,8 @@ Install the IDE, recommended IDE is [IntelliJ IDEA](https://www.jetbrains.com/ru
 
 After installing everything you will need to add JAVA_HOME to your environment variables, look [here](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html) for the information on how to do that
 
+You will also need to [create a basic mongoDB instance](https://medium.com/stackfame/run-mongodb-as-a-service-in-windows-b0acd3a4b712)
+
 In the step controller folder open step-controller/bin/stepController.bat with any text editor, and type in the jdk path according to example written in the bat file
 
 In IntelliJ IDEA create a Maven project and open the pom.xml file, you are going to need to add dependencies for the project to work:
